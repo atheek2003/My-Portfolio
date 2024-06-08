@@ -10,8 +10,8 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: 'Rahul Rajput',
-  description: 'An extensive display of my full-stack development skills, experiences, and projects, demonstrating my proficiency and commitment to coding.',
+  title: 'Atheek Hebbar',
+  description: 'web dev and ML enthusiast ',
   icons: {
     icon: [
       {

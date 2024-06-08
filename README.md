@@ -2,17 +2,13 @@
 
 DevPortfolio is a website built with Next.js that helps developers showcase their portfolios.
 
-# Preview
-![Preview Image](https://i.postimg.cc/X7xQFTHN/Screenshot-2024-01-10-232418.png)
-<br/>
-<br/>
-![Preview Image](https://i.postimg.cc/JznKQPvN/Screenshot-2024-01-10-232441.png)
+
 
 ## Getting Started
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/r2hu1/DevPortfolio.git
+    git clone https://github.com/atheek2003/DevPortfolio.git
     ```
 2. Navigate to the project directory:
     ```bash

@@ -59,3 +59,50 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+      opacity: 0;
+      transform: translateX(-20px);
+  }
+  50% {
+      opacity: 1;
+      transform: translateX(20px);
+  }
+  100% {
+      opacity: 0;
+      transform: translateX(-20px);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.animate-fade-in-out {
+  animation: fadeInOut 3s ease-in-out infinite;
+}
+
+.animate-fade-in-out-delayed {
+  animation: fadeInOut 6s ease-in-out infinite;
+}
+
+.animate-fade-in-delayed {
+  animation: fadeIn 1s ease-in-out 0.5s;
+  animation-fill-mode: backwards;
+}
+
+.animate-glow {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}

@@ -1,14 +1,12 @@
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiJavascript } from "react-icons/si";
+import { SiFlask, SiJavascript } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
 import { SiTailwindcss } from "react-icons/si";
-import { DiNodejs } from "react-icons/di";
+import { DiNodejs, DiPython } from "react-icons/di";
 import { FaReact } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
-import { FaDocker } from "react-icons/fa";
-import { SiAppwrite } from "react-icons/si";
-import { TbBrandReactNative } from "react-icons/tb";
+
 
 export default function Skills() {
     return (
@@ -22,9 +20,8 @@ export default function Skills() {
                 <div className="h-24 w-24 grid place-items-center rounded-md border active:bg-secondary md:hover:bg-secondary transition cursor-pointer hover:scale-95"><DiNodejs className="h-10 w-10" /></div>
                 <div className="h-24 w-24 grid place-items-center rounded-md border active:bg-secondary md:hover:bg-secondary transition cursor-pointer hover:scale-95"><FaReact className="h-10 w-10" /></div>
                 <div className="h-24 w-24 grid place-items-center rounded-md border active:bg-secondary md:hover:bg-secondary transition cursor-pointer hover:scale-95"><DiMongodb className="h-10 w-10" /></div>
-                <div className="h-24 w-24 grid place-items-center rounded-md border active:bg-secondary md:hover:bg-secondary transition cursor-pointer hover:scale-95"><FaDocker className="h-10 w-10" /></div>
-                <div className="h-24 w-24 grid place-items-center rounded-md border active:bg-secondary md:hover:bg-secondary transition cursor-pointer hover:scale-95"><SiAppwrite className="h-10 w-10" /></div>
-                <div className="h-24 w-24 grid place-items-center rounded-md border active:bg-secondary md:hover:bg-secondary transition cursor-pointer hover:scale-95"><TbBrandReactNative className="h-10 w-10" /></div>
+                <div className="h-24 w-24 grid place-items-center rounded-md border active:bg-secondary md:hover:bg-secondary transition cursor-pointer hover:scale-95"><DiPython className="h-10 w-10" /></div>
+                <div className="h-24 w-24 grid place-items-center rounded-md border active:bg-secondary md:hover:bg-secondary transition cursor-pointer hover:scale-95"><SiFlask className="h-10 w-10" /></div>
             </div>
         </div>
     )
