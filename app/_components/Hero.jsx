@@ -58,7 +58,7 @@ export default function Hero() {
         </div>
         <div className='flex items-center justify-center gap-3 mt-5 animate-fade-in-delayed'>
             <Button asChild variant="outline">
-                <Link href="/">Explore</Link>
+                <Link href="app\not-found.jsx">Resume</Link>
             </Button>
             <Button asChild className="flex gap-1 items-center justify-center">
                 <Link href="https://github.com/atheek2003">My Github</Link>
