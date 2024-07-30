@@ -25,6 +25,7 @@ export default function ProjectsSnip() {
                 <Button onClick={handleFilter} variant={cate != "reactjs" ? "secondary" : ""} size="sm" className="rounded-full text-xs">reactjs</Button>
                 <Button onClick={handleFilter} variant={cate != "nextjs" ? "secondary" : ""} size="sm" className="rounded-full text-xs">nextjs</Button>
                 <Button onClick={handleFilter} variant={cate != "ML" ? "secondary" : ""} size="sm" className="rounded-full text-xs">ML</Button>
+                <Button onClick={handleFilter} variant={cate != "NLP" ? "secondary" : ""} size="sm" className="rounded-full text-xs">NLP</Button>
                 {/* <Button onClick={handleFilter} variant={cate != "module" ? "secondary" : ""} size="sm" className="rounded-full text-xs">module</Button> */}
             </div>
             <div className='flex flex-wrap mb-10 gap-5 items-center justify-center'>
