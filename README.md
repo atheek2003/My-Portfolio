@@ -1,6 +1,6 @@
-# DevPortfolio
+# My-Portfolio
 
-DevPortfolio is a website built with Next.js that helps developers showcase their portfolios.
+My-Portfolio is a website built with Next.js that helps developers showcase their portfolios.
 
 
 
@@ -8,11 +8,11 @@ DevPortfolio is a website built with Next.js that helps developers showcase thei
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/atheek2003/DevPortfolio.git
+    git clone https://github.com/atheek2003/My-Portfolio.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd DevPortfolio
+    cd My-Portfolio
     ```
 3. Install dependencies:
     ```bash
