@@ -22,7 +22,7 @@ export default function Skills() {
                 <div className="h-24 w-24 grid place-items-center rounded-md border active:bg-secondary md:hover:bg-secondary transition cursor-pointer hover:scale-95"><DiMongodb className="h-10 w-10" /></div>
                 <div className="h-24 w-24 grid place-items-center rounded-md border active:bg-secondary md:hover:bg-secondary transition cursor-pointer hover:scale-95"><DiPython className="h-10 w-10" /></div>
                 <div className="h-24 w-24 grid place-items-center rounded-md border active:bg-secondary md:hover:bg-secondary transition cursor-pointer hover:scale-95"><SiFlask className="h-10 w-10" /></div>
-                <div className="h-24 w-24 grid place-items-center rounded-md border active:bg-secondary md:hover:bg-secondary transition cursor-pointer hover:scale-95"><SiC className="h-10 w-10" /></div>
+                
                 
                 
             </div>
